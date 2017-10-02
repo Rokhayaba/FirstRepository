@@ -1,0 +1,6 @@
+sources = gui_simple.cpp
+objets = $(sources:.c=.o)
+
+gcc -I  /usr/include/qt4/QtGui/QApplication -lqt
+gcc -I /usr/include/qt4/QtGui/QPushButton -lqt
+gcc -I /usr/include/qt4/QtGui/QVBoxLayout -lqt
